@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.backend.payload.request.PageRequest"/>
+    <fullyQualifiedTypeName name="com.backend.payload.request.SearchRequestUtil"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
+    <fullyQualifiedTypeName name="lombok.EqualsAndHashCode"/>
+    <fullyQualifiedTypeName name="com.backend.persistence.entities.TimestampEntity"/>
+    <fullyQualifiedTypeName name="com.backend.persistence.dto.UtilisateurDto"/>
+    <fullyQualifiedTypeName name="com.backend.security.jwt.AuthEntryPointJwt"/>
+    <fullyQualifiedTypeName name="com.backend.payload.response.JwtResponse"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="com.backend.persistence.dao.EtablissementDAO"/>
+    <fullyQualifiedTypeName name="com.backend.persistence.mappers.EtablissementMapper"/>
+    <fullyQualifiedTypeName name="com.backend.persistence.entities.Etablissement"/>
+    <fullyQualifiedTypeName name="com.backend.persistence.dto.EtablissementDto"/>
+    <fullyQualifiedTypeName name="com.backend.service.EtablissementService"/>
+</qualifiedTypeNameHistroy>

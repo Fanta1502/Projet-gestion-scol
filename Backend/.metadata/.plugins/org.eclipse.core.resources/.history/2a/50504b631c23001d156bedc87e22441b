@@ -1,0 +1,18 @@
+package com.backend.persistence.dao;
+
+
+import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable;
+import org.springframework.data.domain.Page;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.backend.payload.request.PageRequest;
+import com.backend.persistence.entities.Eleve;
+
+@Repository
+public interface EleveDAO extends JpaRepository<Eleve, Long>{
+    Page<Eleve> findByIsDeletedIsFalse(Pageable pageable);
+
+	Page<Eleve> findByIsDeletedIsFalse(PageRequest pageRequest);
+
+}

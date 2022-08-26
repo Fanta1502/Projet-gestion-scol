@@ -1,0 +1,5 @@
+package com.backend.persistence.dto;
+
+public class EtablissementDto {
+
+}

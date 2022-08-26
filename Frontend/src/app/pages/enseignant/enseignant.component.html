@@ -1,0 +1,60 @@
+<div class="page-header">
+    <h3 class="page-title">
+        <span class="page-title-icon bg-gradient-primary text-white mr-2">
+            <i class="mdi mdi-account"></i>
+        </span>
+        Gestion des enseignants
+    </h3>
+</div>
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <div class="card-title">
+                <div class="row">
+                    <div class="col">
+                        <h3>La liste des enseignants</h3>
+                    </div>
+                    <div class="col">
+                        <div style="float: right;">
+                            <button class="btn" (click)="onAdd()"><i class="mdi mdi-account-plus text-primary"
+                                    style="font-size: 25px;"></i></button>
+                            <button class="btn"><i class="mdi mdi-printer text-primary"
+                                    style="font-size: 25px;"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-responsive pt-3">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    #
+                                </th>
+                                <th>
+                                    Nom
+                                </th>
+                                <th>
+                                    Prénom
+                                </th>
+                                <th>
+                                    Date de naissance
+                                </th>
+                                <th>
+                                    Genre
+                                </th>
+                                <th>
+                                    Niveau
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="card-footer">
+                    <ngb-pagination [collectionSize]="40" [pageSize]="10" [page]="1" aria-label="Default pagination"
+                        class="d-flex justify-content-center"></ngb-pagination>
+                </div>
+            </div>
+        </div>
+    </div>

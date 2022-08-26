@@ -1,0 +1,17 @@
+package com.backend.service;
+
+import org.springframework.stereotype.Service;
+
+import com.backend.persistence.dao.EtablissementDAO;
+import com.backend.persistence.mappers.EtablissementMapper;
+
+import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+
+@Service
+@Slf4j
+@AllArgsConstructor
+public class EtablissementService {
+	private final EtablissementDAO etablissementDAO;
+	private final EtablissementMapper etablissementMapper;
+}

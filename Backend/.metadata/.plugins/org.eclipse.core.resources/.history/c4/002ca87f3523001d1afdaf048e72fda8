@@ -1,0 +1,5 @@
+package com.backend.persistence.mappers;
+
+public class EtablissementMapper {
+
+}
