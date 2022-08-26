@@ -32,7 +32,7 @@ import { AddEnseignantComponent } from './enseignant/add-enseignant/add-enseigna
     FormsModule,
     ReactiveFormsModule,
     ChartsModule,
-    NgbModule,
+    NgbModule
   ],
   declarations: [
     PagesComponent,
